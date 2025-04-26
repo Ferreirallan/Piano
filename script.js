@@ -28,7 +28,7 @@ const handleVolume = (e) => {
 }
 
 
-const howHideKeys = (e) =>{
+const showHideKeys = () =>{
     // alternando ocultar classe de cada chave no clique da caixa de seleção
     pianoKeys.forEach(key => key.classList.toggle("hide"));
 }
